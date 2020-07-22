@@ -1,12 +1,17 @@
 <template>
-  <div>
-    HelloWorld.JPG
+  <div class="hello">
+    <h1>{{ msg }}</h1>
+    <p>
+      fdsalfdjsalfjdksafjdslafjdslafjdslafjdlsafjdls
+      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+    </p>
+    <h3>Installed Vue-CLI</h3>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'About',
   props: {
     msg: String
   }
